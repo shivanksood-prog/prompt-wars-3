@@ -338,9 +338,9 @@
 <!-- ====== SLIDE 1 : HERO ====== -->
 <section class="slide hero">
   <div class="badge">Prompt Wars 3</div>
-  <h1>From Blind Alerts to<br><span>Intelligent Outage Resolution</span></h1>
-  <p>Partners don't know WHY something is down or WHAT to do. We fix that.</p>
-  <div class="author"><strong>Saurabh Bansal</strong> &middot; Supply</div>
+  <h1>Smarter Alerts.<br><span>Faster Resolution.</span></h1>
+  <p>What if partners knew WHY something is down and WHAT to do — before the first ticket?</p>
+  <div class="author"><strong>Supply Team</strong></div>
 </section>
 
 <!-- ====== SLIDE 2 : THE STORY ====== -->
@@ -441,81 +441,66 @@
 
   <div class="card-grid" style="margin-top: 24px;">
     <div class="card accent-border">
-      <div class="icon red">1</div>
-      <h3>Partner doesn't know what to do</h3>
-      <p>Root causes differ &mdash; fiber cut, OLT failure, ISP backbone, power outage &mdash; each needs a different action. Today they get one generic alert for all.</p>
-      <div style="margin-top: 16px; padding: 12px 16px; background: var(--accent-light); border-radius: 10px;">
-        <strong style="color: var(--accent); font-size: 0.82rem;">LEVER: Intelligent Payload</strong>
-        <p style="font-size: 0.82rem; color: var(--secondary); margin-top: 4px;">Diagnose the problem and deliver information in an <em>actionable format</em>. Tell them WHY it's down and WHAT to do.</p>
+      <div class="icon pink" style="font-weight:800;">1</div>
+      <h3 style="color: var(--accent);">Intelligent Information</h3>
+      <p style="font-weight: 600; color: var(--text); margin-bottom: 8px;">Partner doesn't know what to do in time.</p>
+      <p>Root causes differ &mdash; fiber cut, OLT failure, ISP backbone, power outage &mdash; but partners receive one generic alert for all. No diagnosis, no next steps.</p>
+      <div style="margin-top: 16px; padding: 14px 18px; background: var(--accent-light); border-radius: 10px;">
+        <strong style="color: var(--accent); font-size: 0.85rem;">The Fix: Intelligent Payload</strong>
+        <p style="font-size: 0.85rem; color: var(--secondary); margin-top: 6px;">Diagnose the root cause automatically and deliver it in an <em>actionable format</em> &mdash; tell the partner <strong>WHY</strong> it's down, <strong>WHERE</strong> the fault is, and <strong>WHAT</strong> to do next.</p>
       </div>
     </div>
 
     <div class="card purple-border">
-      <div class="icon purple">2</div>
-      <h3>Partner can't see the bigger picture</h3>
-      <p>Multiple tickets come in for the same root cause. Partner wastes time addressing them individually instead of fixing once at the source.</p>
-      <div style="margin-top: 16px; padding: 12px 16px; background: var(--purple-bg); border-radius: 10px;">
-        <strong style="color: var(--purple); font-size: 0.82rem;">LEVER: Cluster Grouping</strong>
-        <p style="font-size: 0.82rem; color: var(--secondary); margin-top: 4px;">Group affected devices by geography and root cause. One fix, many tickets resolved.</p>
+      <div class="icon purple" style="font-weight:800;">2</div>
+      <h3 style="color: var(--purple);">Bandwidth Management</h3>
+      <p style="font-weight: 600; color: var(--text); margin-bottom: 8px;">Partner can't optimise bandwidth across multiple tickets.</p>
+      <p>When 15 devices go down, 15 separate tickets come in. The partner chases each one individually &mdash; sending technicians, making calls &mdash; when the root cause is a single splitter or OLT.</p>
+      <div style="margin-top: 16px; padding: 14px 18px; background: var(--purple-bg); border-radius: 10px;">
+        <strong style="color: var(--purple); font-size: 0.85rem;">The Fix: Cluster Grouping</strong>
+        <p style="font-size: 0.85rem; color: var(--secondary); margin-top: 6px;">Group affected devices by geography and root cause. Partner sees <strong>one problem</strong> on a map, not twenty tickets in a list. Fix once &mdash; resolve many.</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ====== SLIDE 5 : SOLUTION ====== -->
+<!-- ====== SLIDE 5 : BEFORE / AFTER ====== -->
 <section class="slide">
   <div class="section-label">The Solution</div>
-  <h2>Intelligent, Clustered Communication</h2>
-  <p class="subtitle">An AI agent that tells partners WHY something is down and WHAT to do.</p>
+  <h2>Before vs After</h2>
+  <p class="subtitle">From a generic WhatsApp blast to an intelligent, actionable alert with map view.</p>
 
-  <div class="solution-flow">
-    <div class="flow-step">
-      <div class="step-icon">📡</div>
-      <h4>Detect</h4>
-      <p>Device telemetry flags outage</p>
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin-top: 16px; align-items: start;">
+    <!-- BEFORE -->
+    <div>
+      <div style="display: inline-block; background: var(--red-bg); color: var(--red); font-size: 0.72rem; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; padding: 4px 14px; border-radius: 100px; margin-bottom: 14px;">Before</div>
+      <div style="background: var(--card); border: 2px solid var(--border); border-radius: 16px; overflow: hidden;">
+        <img src="before_alert.png" alt="Before: Generic WhatsApp alert" style="width: 100%; display: block;">
+      </div>
+      <p style="font-size: 0.82rem; color: var(--muted); margin-top: 10px; text-align: center;">Generic alert. No diagnosis. No next steps. "22 devices not working" &mdash; now what?</p>
     </div>
-    <div class="flow-arrow">→</div>
-    <div class="flow-step">
-      <div class="step-icon">🧠</div>
-      <h4>Diagnose</h4>
-      <p>AI identifies root cause type</p>
-    </div>
-    <div class="flow-arrow">→</div>
-    <div class="flow-step">
-      <div class="step-icon">📍</div>
-      <h4>Cluster</h4>
-      <p>Group affected devices on map</p>
-    </div>
-    <div class="flow-arrow">→</div>
-    <div class="flow-step">
-      <div class="step-icon">🎯</div>
-      <h4>Act</h4>
-      <p>Actionable steps sent to partner</p>
-    </div>
-    <div class="flow-arrow">→</div>
-    <div class="flow-step">
-      <div class="step-icon">⚡</div>
-      <h4>Escalate</h4>
-      <p>ISP faults auto-escalated</p>
+    <!-- AFTER -->
+    <div>
+      <div style="display: inline-block; background: var(--green-bg); color: var(--green); font-size: 0.72rem; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; padding: 4px 14px; border-radius: 100px; margin-bottom: 14px;">After</div>
+      <div style="background: var(--card); border: 2px solid var(--green); border-radius: 16px; overflow: hidden;">
+        <img src="after_alert.png" alt="After: Intelligent clustered alert" style="width: 100%; display: block;">
+      </div>
+      <p style="font-size: 0.82rem; color: var(--muted); margin-top: 10px; text-align: center;">Root cause identified. Clustered by location. Action steps included. Map link provided.</p>
     </div>
   </div>
 
-  <div class="card-grid" style="margin-top: 32px;">
-    <div class="card green-border">
-      <div class="icon green">📍</div>
-      <h3>Clustered on Map</h3>
-      <p>Affected devices grouped by location and fault type. Partner sees one problem, not twenty tickets.</p>
-    </div>
-    <div class="card green-border">
-      <div class="icon green">✅</div>
-      <h3>Actionable Solution</h3>
-      <p>"Splitter down at Locality A — dispatch technician to junction box at [location]. 12 devices will recover."</p>
-    </div>
-  </div>
-
-  <div class="callout">
+  <div class="callout" style="margin-top: 32px;">
     <div class="emoji">🎯</div>
     <p>Target: Cut resolution time by <strong>50%</strong> and reduce outage incidents by <strong>75%</strong></p>
+  </div>
+
+  <div style="text-align: center; margin-top: 28px;">
+    <a href="https://prompt-wars-3-outage-tat-production.up.railway.app/"
+       target="_blank"
+       style="display: inline-block; background: var(--accent); color: #fff; font-size: 1rem; font-weight: 700; padding: 16px 40px; border-radius: 100px; text-decoration: none; letter-spacing: 0.5px; transition: opacity 0.2s;"
+       onmouseover="this.style.opacity='0.85'" onmouseout="this.style.opacity='1'">
+      View Live Map Demo →
+    </a>
   </div>
 </section>
 
@@ -535,7 +520,7 @@
 
 <!-- ====== FOOTER ====== -->
 <div class="footer-bar">
-  <p><strong>Prompt Wars 3</strong> &middot; Saurabh Bansal &middot; Supply</p>
+  <p><strong>Prompt Wars 3</strong> &middot; Supply Team</p>
 </div>
 
 </body>
